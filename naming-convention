@@ -1,0 +1,12 @@
+# Naming Convention
+
+Security groups use SEC-<Type>-<Name>, for example
+SEC-Dept-Sales or SEC-Role-Helpdesk. SEC identifies a
+security group, Type describes its purpose, and Name
+identifies the department or job function. Consistent
+names make groups easier to find and understand.
+
+User sign-in names use firstname.lastname followed by
+@middenikhilvinaykumargmail.onmicrosoft.com.
+All names use lowercase letters. This gives each fictional
+person a predictable, individual account.
