@@ -42,3 +42,46 @@ A new hire would need an account and four separate grants.
 
 This is a design comparison. I have not assigned application
 access to these groups in this lab.
+
+## Business Scenario
+
+VDR is a fictional company building a directory to organize
+employees and support consistent access management.
+
+## Tools Used
+
+- Microsoft Entra ID Free
+- Azure portal
+- Excel and CSV bulk import
+- GitHub and Markdown
+
+## What I Built
+
+- 15 initial company users, followed by one new hire
+- User properties including job title, department, and usage location
+- Manager relationships for manually created users
+- Five assigned security groups with owners and members
+- Audit screenshots documenting user and group changes
+
+## Security Lessons Learned
+
+Job titles and manager relationships do not grant permissions.
+Group ownership and group membership serve different purposes.
+
+Consistent department values help keep the directory organized.
+Reviewing bulk operation results helped me identify and fix
+password validation failures.
+
+Passwords belong in private storage. The public CSV uses
+placeholders instead of credentials.
+
+Creating groups does not grant application access. Access
+assignments would require separate configuration.
+
+## Future Improvements
+
+- Review and complete manager relationships for imported users
+- Define contractor access and offboarding procedures
+- Review group membership regularly
+- Export audit logs for longer retention
+- Consider dynamic membership with appropriate licensing
