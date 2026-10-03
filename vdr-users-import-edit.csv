@@ -1,0 +1,10 @@
+﻿Name [displayName] Required,User name [userPrincipalName] Required,Initial password [passwordProfile] Required,Account enabled (true/false) [accountEnabled],First name [givenName],Last name [surname],Job title [jobTitle],Department [department],Usage location [usageLocation],Street address [streetAddress],State or province [state],Country or region [country],Office [officeLocation],City [city],ZIP or postal code [postalCode],Business phone [businessPhones],Mobile phone [mobilePhone]
+Venkat,venkat@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Venkat,,IT Analyst,IT,US,,,United States,,,,,
+Karthik,karthik@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,karthik,,IT Analyst,IT,US,,,United States,,,,,
+Anji,anji@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Anji,,IT Analyst,IT,US,,,United States,,,,,
+Srinu,srinu@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Srinu,,IT Analyst,IT,US,,,United States,,,,,
+Bharath,bharath@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Bharath,,IT Analyst,IT,US,,,United States,,,,,
+Krishna,krishna@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Krishna,,IT Analyst,IT,US,,,United States,,,,,
+Vinay,vinay@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Vinay,,IT Analyst,IT,US,,,United States,,,,,
+Kumar,kumar@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,kumar,,Finance Analyst,Finance,US,,,United States,,,,,
+Saraah,saraah@middenikhilvinaykumargmail.onmicrosoft.com,Replace with ur own pass,TRUE,Saraah,,Finance Analyst,Finance,US,,,United States,,,,,
