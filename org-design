@@ -74,3 +74,13 @@ requirements would need separate review.
 I would consider dynamic membership with appropriate licensing
 and export audit logs for longer retention. These improvements
 have not been implemented in this lab.
+
+## New-Hire Update
+
+After the initial 15-user build, I added Avery Thompson as an
+IT Analyst reporting to Jordan Lee and joined Avery to
+SEC-Dept-IT.
+
+VDR now has 16 company users: 11 IT, 3 Finance, 1 HR, and 1 owner.
+The tenant contains 17 accounts including my administrator.
+The IT group now has 11 members.
