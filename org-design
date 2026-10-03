@@ -1,0 +1,76 @@
+# VDR Directory Design
+
+## Company and Users
+
+VDR is a fictional 15-person company with 10 IT employees,
+3 Finance employees, 1 HR employee, and 1 owner.
+
+The owner's lab account is separate from my administrator
+account, even though both display the name Nikhil Midde.
+
+I created five users manually, nine through CSV import,
+and Reese Clark manually afterward.
+
+## Group Design
+
+All groups are Security groups with Assigned membership.
+
+| Group | Members | Owner | Purpose |
+|---|---:|---|---|
+| SEC-Dept-IT | 10 | Jordan Lee | Organize IT employees |
+| SEC-Dept-Finance | 3 | Morgan Chen | Organize Finance employees |
+| SEC-Dept-HR | 1 | Nikhil Midde | Organize the HR function |
+| SEC-Role-Leadership | 3 | Nikhil Midde | Organize the owner and department managers |
+| SEC-Role-Helpdesk | 2 | Jordan Lee | Organize Casey and Taylor's support responsibilities |
+
+Department groups represent where people work. Role groups
+represent responsibilities that may overlap departments.
+
+HR currently has one member. I kept a department group so
+future HR employees can join the same structure.
+
+Group descriptions identify who approves membership changes.
+They document a process; they do not enforce an approval workflow.
+
+## Access and Ownership
+
+Group owners manage membership. Members are the people who
+would receive access if resources were assigned to the group.
+
+Creating these groups did not grant application access or
+Entra administrator roles. Job titles also grant no permissions.
+
+## Contractors
+
+This version of VDR contains employees only and differs from
+the handout's contractor scenario.
+
+Before adding contractors, I would document their sponsor,
+contract end date, approved access, and offboarding process.
+They would not automatically inherit employee department access.
+
+## Problems and Fixes
+
+The bulk import failed because initial passwords contained
+usernames. I reviewed the operation results, changed the
+passwords privately, and successfully retried the import.
+
+The CSV contained nine users rather than ten. I added Reese
+manually to reach 15 company users.
+
+I corrected inconsistent department spelling before importing.
+Passwords will be replaced with placeholders in the public CSV.
+
+## Scaling to 500 People
+
+I would document account naming and duplicate-name handling,
+standardize department values, automate provisioning, and
+establish membership reviews and contractor offboarding.
+
+Department-only access would become insufficient when people
+need different access within the same team. Role and resource
+requirements would need separate review.
+
+I would consider dynamic membership with appropriate licensing
+and export audit logs for longer retention. These improvements
+have not been implemented in this lab.
