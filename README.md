@@ -85,3 +85,13 @@ assignments would require separate configuration.
 - Review group membership regularly
 - Export audit logs for longer retention
 - Consider dynamic membership with appropriate licensing
+
+## Directory Screenshots
+
+![VDR users and administrator account](screenshots/users-list.png)
+
+![Avery Thompson's user properties](screenshots/user-properties.png)
+
+![VDR security groups](screenshots/groups-list.png)
+
+![IT group membership after onboarding Avery](screenshots/it-members.png)
