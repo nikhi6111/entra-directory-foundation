@@ -95,3 +95,7 @@ assignments would require separate configuration.
 ![VDR security groups](screenshots/groups-list.png)
 
 ![IT group membership after onboarding Avery](screenshots/it-members.png)
+
+## Screenshot Privacy
+
+Black boxes redact email addresses, user principal names, and the signed-in identity. All pixels outside those boxes are unchanged from the original screenshots. This update replaces the current images; earlier versions remain in Git history.
